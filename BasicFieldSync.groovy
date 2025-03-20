@@ -11,7 +11,7 @@ class BasicFieldSync
 	issue.assignee     = nodeHelper.getUserByUsername(replica.assignee?.username)
 	issue.reporter     = nodeHelper.getUserByUsername(replica.reporter?.username)
 	issue.labels       = replica.labels
-	//issue.comments     = commentHelper.mergeComments(issue, replica)
+	issue.comments     = "hello 2"
 	//issue.attachments  = attachmentHelper.mergeAttachments(issue, replica)
   }
 }
